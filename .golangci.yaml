@@ -1,0 +1,107 @@
+# Options for analysis running.
+run:
+  # See the dedicated "run" documentation section.
+  option: value
+  skip-files:
+     - ".*_test\\.go$"
+  skip-dirs:
+    - tools
+# output configuration options
+output:
+  # See the dedicated "output" documentation section.
+  option: value
+# All available settings of specific linters.
+linters-settings:
+  # See the dedicated "linters-settings" documentation section.    
+  option: value
+  # skip-files: *_test.go    
+  
+linters:
+  # See the dedicated "linters" documentation section.
+  disable-all: true
+  enable:
+    - deadcode
+    - maligned
+    - errcheck
+    - gosimple
+    - govet
+    - ineffassign
+    - staticcheck
+    - typecheck
+    - unused
+    - asasalint
+    - asciicheck
+    - bidichk
+    - bodyclose
+    - contextcheck
+    - durationcheck
+#    - errchkjson
+    - errname
+    - errorlint
+    - execinquery
+    - exhaustive
+    # - exhaustruct
+    - exportloopref
+    # - forbidigo
+    # - forcetypeassert
+    # - funlen
+    - gocheckcompilerdirectives
+    # - gochecknoglobals
+    # - gochecknoinits
+    # - gocognit
+    # - goconst
+    - gocritic
+    # - gocyclo
+    # - godot
+    # - godox
+    # - goerr113
+    - gofmt
+    - gofumpt
+    - gofumpt
+    - goheader
+    - goimports
+    # - gomnd
+#    - gomoddirectives
+    - gomodguard
+    - goprintffuncname
+    # - gosec
+    - grouper
+    - importas
+#    - interfacebloat
+    # - ireturn
+    # - lll
+    - loggercheck
+    # - maintidx    
+    - makezero
+    - misspell
+    - musttag
+    # - nakedret
+    # - nestif
+    - nilerr
+    - nilnil
+    # - nlreturn
+    - nolintlint
+    # - nonamedreturns
+#    - nosprintfhostport
+    - unparam
+    - unconvert
+    - prealloc
+    - predeclared
+    - reassign
+    # - revive
+    # - rowserrcheck
+    # - stylecheck
+    # - tagliatelle
+    - tenv
+    - usestdlibvars
+    # - varnamelen
+    # - wastedassign
+    - whitespace
+    # - wrapcheck
+    # - wsl
+issues:
+  # See the dedicated "issues" documentation section.
+  option: value
+severity:
+  # See the dedicated "severity" documentation section.
+  option: value

@@ -1,0 +1,21 @@
+{
+  "logger": {
+    "level": "info",
+    "file_output": "logs"
+  },
+  "mongo": {
+    "host": "127.0.0.1",
+    "port": 37017,
+    "db": "game-rank"
+  },
+  "server": {
+    "port": 6818
+  },
+  "redis": [
+    {
+      "addr": "127.0.0.1:6379",
+      "db": 0,
+      "cluster": false
+    }
+  ]
+}
